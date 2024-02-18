@@ -1,0 +1,80 @@
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.find-a-ride {
+  background-color: #333;
+  padding: 30px 0;
+}
+
+.find-a-ride-content--top {
+  text-align: center;
+  color: white;
+}
+
+.find-a-ride-content--top h1 {
+  font-size: 30px;
+}
+
+/* form */
+/* form {
+  border: 2px solid blue;
+} */
+
+.find-a-ride-content--bottom {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 75px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.find-a-ride-content--bottom .input-div {
+  /* border: 1px solid blue; */
+  position: relative;
+}
+
+.find-a-ride-content--bottom .input-div .my-Icon {
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  transform: translateY(-50%);
+}
+
+.find-a-ride-content--bottom input {
+  width: 90%;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .find-a-ride-content--bottom {
+    border: none;
+    background-color: transparent;
+    flex-direction: column;
+  }
+
+  .find-a-ride-content--bottom input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+}
